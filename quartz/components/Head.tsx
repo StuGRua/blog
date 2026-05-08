@@ -86,6 +86,35 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
+        {fileData.slug !== "404" && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Article",
+                headline: title,
+                description: description,
+                url: socialUrl,
+                image: usesCustomOgImage
+                  ? `${socialUrl}-og-image.webp`
+                  : ogImageDefaultPath,
+                datePublished: fileData.dates?.created?.toISOString(),
+                dateModified: fileData.dates?.modified?.toISOString(),
+                inLanguage: cfg.locale,
+                author: { "@type": "Person", name: cfg.pageTitle },
+                publisher: {
+                  "@type": "Organization",
+                  name: cfg.pageTitle,
+                  logo: { "@type": "ImageObject", url: iconPath },
+                },
+                keywords: fileData.frontmatter?.tags?.join(", "),
+                mainEntityOfPage: { "@type": "WebPage", "@id": socialUrl },
+              }),
+            }}
+          />
+        )}
+
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")

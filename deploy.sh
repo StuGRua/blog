@@ -11,6 +11,14 @@ echo "Building Quartz..."
 cd "$BLOG_DIR"
 npx quartz build
 
+echo "Writing robots.txt..."
+cat > "$PUBLIC_DIR/robots.txt" <<ROBOTS
+User-agent: *
+Allow: /
+
+Sitemap: https://stugrua.github.io/blog/sitemap.xml
+ROBOTS
+
 echo "Deploying to gh-pages..."
 cd "$PUBLIC_DIR"
 git init
