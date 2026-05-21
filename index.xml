@@ -6,35 +6,41 @@
       <description>最近的10条笔记 on 悬浮猫图书馆</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>AI世代下的沟通表达 - 推荐书单与游戏</title>
-    <link>https://stugrua.github.io/blog/%E6%B2%9F%E9%80%9A%E4%B8%8E%E8%A1%A8%E8%BE%BE/AI%E4%B8%96%E4%BB%A3%E4%B8%8B%E7%9A%84%E6%B2%9F%E9%80%9A%E8%A1%A8%E8%BE%BE-%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95%E4%B8%8E%E6%B8%B8%E6%88%8F</link>
-    <guid>https://stugrua.github.io/blog/%E6%B2%9F%E9%80%9A%E4%B8%8E%E8%A1%A8%E8%BE%BE/AI%E4%B8%96%E4%BB%A3%E4%B8%8B%E7%9A%84%E6%B2%9F%E9%80%9A%E8%A1%A8%E8%BE%BE-%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95%E4%B8%8E%E6%B8%B8%E6%88%8F</guid>
-    <description><![CDATA[ AI 时代更需要清晰的沟通表达能力。这里整理了几本书和几款游戏，覆盖语言、写作、逻辑与思维训练，适合想提升表达底子的人。 ]]></description>
-    <pubDate>Fri, 08 May 2026 12:39:31 GMT</pubDate>
-  </item><item>
-    <title>GPT-Image-2 小白使用教程</title>
-    <link>https://stugrua.github.io/blog/AI%E4%B8%8E%E6%95%88%E7%8E%87/GPT-Image-2-%E5%B0%8F%E7%99%BD%E6%95%99%E7%A8%8B</link>
-    <guid>https://stugrua.github.io/blog/AI%E4%B8%8E%E6%95%88%E7%8E%87/GPT-Image-2-%E5%B0%8F%E7%99%BD%E6%95%99%E7%A8%8B</guid>
-    <description><![CDATA[ OpenAI GPT-Image-2 的零基础使用指南，覆盖免费与付费入口、提示词写法、常见用法和踩坑点，适合第一次接触 AI 画图的用户。 ]]></description>
-    <pubDate>Fri, 08 May 2026 12:39:31 GMT</pubDate>
-  </item><item>
     <title>2026 AI 工具推荐</title>
-    <link>https://stugrua.github.io/blog/AI%E4%B8%8E%E6%95%88%E7%8E%87/2026-AI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90</link>
-    <guid>https://stugrua.github.io/blog/AI%E4%B8%8E%E6%95%88%E7%8E%87/2026-AI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90</guid>
+    <link>https://stugrua.github.io/blog/articles/AI%E4%B8%8E%E6%95%88%E7%8E%87/2026-AI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90</link>
+    <guid>https://stugrua.github.io/blog/articles/AI%E4%B8%8E%E6%95%88%E7%8E%87/2026-AI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90</guid>
     <description><![CDATA[ 2026 年实测过的 AI 工具清单，按网页对话 / 搜索 / 图像生成 / 视频生成 / 音乐生成 / 编程 / 语音输入等场景分类，只推开箱即用的选项。 ]]></description>
-    <pubDate>Fri, 08 May 2026 12:39:30 GMT</pubDate>
-  </item><item>
-    <title>2026 AI 信源推荐</title>
-    <link>https://stugrua.github.io/blog/AI%E4%B8%8E%E6%95%88%E7%8E%87/2026-AI%E4%BF%A1%E6%BA%90%E6%8E%A8%E8%8D%90</link>
-    <guid>https://stugrua.github.io/blog/AI%E4%B8%8E%E6%95%88%E7%8E%87/2026-AI%E4%BF%A1%E6%BA%90%E6%8E%A8%E8%8D%90</guid>
-    <description><![CDATA[ 2026 年值得长期订阅的 30 个 AI 信源，按官方 / 学术 / 实时 / 社区 / 自媒体 / 资讯聚合 6 类整理，每条带三维评分（专业度 / 时效性 / 立场中立）和业界 / 个人双轨风评。 ]]></description>
-    <pubDate>Fri, 08 May 2026 12:39:30 GMT</pubDate>
+    <pubDate>Thu, 21 May 2026 10:22:39 GMT</pubDate>
   </item><item>
     <title>首页</title>
     <link>https://stugrua.github.io/blog/</link>
     <guid>https://stugrua.github.io/blog/</guid>
-    <description><![CDATA[ 欢迎 个人随笔，记录思考和分享。 目录 2026-AI工具推荐 2026-AI信源推荐 GPT-Image-2-小白教程 AI世代下的沟通表达-推荐书单与游戏 . ]]></description>
-    <pubDate>Fri, 08 May 2026 11:50:57 GMT</pubDate>
+    <description><![CDATA[ 欢迎 个人随笔，记录思考和分享。 已发布文章 AI世代下的沟通表达-推荐书单与游戏 2026-AI工具推荐 2026-AI信源推荐 GPT-Image-2-小白教程 分镜与构图-入门学习路径 . ]]></description>
+    <pubDate>Thu, 21 May 2026 10:22:39 GMT</pubDate>
+  </item><item>
+    <title>AI世代下的沟通表达 - 推荐书单与游戏</title>
+    <link>https://stugrua.github.io/blog/articles/%E6%B2%9F%E9%80%9A%E4%B8%8E%E8%A1%A8%E8%BE%BE/AI%E4%B8%96%E4%BB%A3%E4%B8%8B%E7%9A%84%E6%B2%9F%E9%80%9A%E8%A1%A8%E8%BE%BE-%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95%E4%B8%8E%E6%B8%B8%E6%88%8F</link>
+    <guid>https://stugrua.github.io/blog/articles/%E6%B2%9F%E9%80%9A%E4%B8%8E%E8%A1%A8%E8%BE%BE/AI%E4%B8%96%E4%BB%A3%E4%B8%8B%E7%9A%84%E6%B2%9F%E9%80%9A%E8%A1%A8%E8%BE%BE-%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95%E4%B8%8E%E6%B8%B8%E6%88%8F</guid>
+    <description><![CDATA[ AI 时代更需要清晰的沟通表达能力。这里整理了几本书和几款游戏，覆盖语言、写作、逻辑与思维训练，适合想提升表达底子的人。 ]]></description>
+    <pubDate>Thu, 21 May 2026 10:22:39 GMT</pubDate>
+  </item><item>
+    <title>GPT-Image-2 小白使用教程</title>
+    <link>https://stugrua.github.io/blog/articles/AI%E4%B8%8E%E6%95%88%E7%8E%87/GPT-Image-2-%E5%B0%8F%E7%99%BD%E6%95%99%E7%A8%8B</link>
+    <guid>https://stugrua.github.io/blog/articles/AI%E4%B8%8E%E6%95%88%E7%8E%87/GPT-Image-2-%E5%B0%8F%E7%99%BD%E6%95%99%E7%A8%8B</guid>
+    <description><![CDATA[ OpenAI GPT-Image-2 的零基础使用指南，覆盖免费与付费入口、提示词写法、常见用法和踩坑点，适合第一次接触 AI 画图的用户。 ]]></description>
+    <pubDate>Thu, 21 May 2026 10:22:39 GMT</pubDate>
+  </item><item>
+    <title>2026 AI 信源推荐</title>
+    <link>https://stugrua.github.io/blog/articles/AI%E4%B8%8E%E6%95%88%E7%8E%87/2026-AI%E4%BF%A1%E6%BA%90%E6%8E%A8%E8%8D%90</link>
+    <guid>https://stugrua.github.io/blog/articles/AI%E4%B8%8E%E6%95%88%E7%8E%87/2026-AI%E4%BF%A1%E6%BA%90%E6%8E%A8%E8%8D%90</guid>
+    <description><![CDATA[ 2026 年值得长期订阅的 30 个 AI 信源，按官方 / 学术 / 实时 / 社区 / 自媒体 / 资讯聚合 6 类整理，每条带三维评分（专业度 / 时效性 / 立场中立）和业界 / 个人双轨风评。 ]]></description>
+    <pubDate>Thu, 21 May 2026 10:22:39 GMT</pubDate>
+  </item><item>
+    <title>分镜与构图 - 入门学习路径</title>
+    <link>https://stugrua.github.io/blog/%E8%A7%86%E8%A7%89%E5%8F%99%E4%BA%8B/%E5%88%86%E9%95%9C%E4%B8%8E%E6%9E%84%E5%9B%BE-%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84</link>
+    <guid>https://stugrua.github.io/blog/%E8%A7%86%E8%A7%89%E5%8F%99%E4%BA%8B/%E5%88%86%E9%95%9C%E4%B8%8E%E6%9E%84%E5%9B%BE-%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84</guid>
+    <description><![CDATA[ 分镜与构图的系统性入门路径。分镜侧重叙事顺序和镜头连接，构图侧重单帧内的视觉组织，分开学更高效。覆盖书单、实践方法与 6 周节奏建议。 ]]></description>
+    <pubDate>Tue, 12 May 2026 07:27:55 GMT</pubDate>
   </item>
     </channel>
   </rss>
