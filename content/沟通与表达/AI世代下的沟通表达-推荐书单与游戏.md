@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "articles/沟通与表达/AI世代下的沟通表达-推荐书单与游戏"
 title: AI世代下的沟通表达 - 推荐书单与游戏
 permalink: communication-booklist
 publish: true

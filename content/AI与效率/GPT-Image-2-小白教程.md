@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "articles/AI与效率/GPT-Image-2-小白教程"
 title: GPT-Image-2 小白使用教程
 permalink: gpt-image-2-guide
 publish: true

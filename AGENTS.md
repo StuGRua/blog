@@ -8,3 +8,5 @@
 - 正式构建使用 `npm run build`，发布使用 `./deploy.sh`；发布前检查 `public`。禁止直接上传旧产物或跳过内容检查。
 - 所有本地发布副本纳入 Git；`.release`、旧产物备份、`public` 不提交。撤下文件后重新构建，另行检查线上及历史副本。
 - `quartz/static` 也属于公开输入，受 static-manifest.json 的逐文件哈希约束；变更必须先审阅。构建产物须通过 check-release.py，不能仅靠哈希回执判定安全。
+- 分类直接放在 content 根目录：AI与效率、沟通与表达、视觉叙事，不增加 articles 这样的容器层。首页按主题编排；移动文章时保留旧路径 alias 与原 permalink。
+- 从知识库 articles 导入时，以其 articles 目录作为 --source，显式列出主题/文章路径，避免重新带入容器层；覆盖前保留博客专用 aliases 等元数据。
