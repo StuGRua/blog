@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>《P(doom)》歌词解析：一首 AI 末日情歌里的技术、神话与黑色幽默</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="悬浮猫图书馆"/><meta property="og:title" content="《P(doom)》歌词解析：一首 AI 末日情歌里的技术、神话与黑色幽默"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="《P(doom)》歌词解析：一首 AI 末日情歌里的技术、神话与黑色幽默"/><meta name="twitter:description" content="从中文屋、修格斯到回形针与 Loom，逐段解读 P(doom) 的完整中英歌词、技术典故与末日想象。"/><meta property="og:description" content="从中文屋、修格斯到回形针与 Loom，逐段解读 P(doom) 的完整中英歌词、技术典故与末日想象。"/><meta property="og:image:alt" content="从中文屋、修格斯到回形针与 Loom，逐段解读 P(doom) 的完整中英歌词、技术典故与末日想象。"/><meta property="twitter:domain" content="stugrua.github.io/blog"/><meta property="og:url" content="https://stugrua.github.io/blog/作品评论/P(doom)：歌词对照、典故与解析"/><meta property="twitter:url" content="https://stugrua.github.io/blog/作品评论/P(doom)：歌词对照、典故与解析"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="从中文屋、修格斯到回形针与 Loom，逐段解读 P(doom) 的完整中英歌词、技术典故与末日想象。"/><meta name="generator" content="Quartz"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"《P(doom)》歌词解析：一首 AI 末日情歌里的技术、神话与黑色幽默","description":"从中文屋、修格斯到回形针与 Loom，逐段解读 P(doom) 的完整中英歌词、技术典故与末日想象。","url":"https://stugrua.github.io/blog/作品评论/P(doom)：歌词对照、典故与解析","image":"https://stugrua.github.io/blog/作品评论/P(doom)：歌词对照、典故与解析-og-image.webp","datePublished":"2026-09-27T16:00:00.000Z","dateModified":"2026-09-27T16:00:00.000Z","inLanguage":"zh-CN","author":{"@type":"Person","name":"悬浮猫图书馆"},"publisher":{"@type":"Organization","name":"悬浮猫图书馆","logo":{"@type":"ImageObject","url":"../static/icon.png"}},"keywords":"作品评论, 人工智能, 歌词解析, AI文化","mainEntityOfPage":{"@type":"WebPage","@id":"https://stugrua.github.io/blog/作品评论/P(doom)：歌词对照、典故与解析"}}</script><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL21udC9mL2FpX3dvcmtzcGFjZS9ibG9nL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://stugrua.github.io/blog/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://stugrua.github.io/blog/作品评论/P(doom)：歌词对照、典故与解析-og-image.webp"/><meta property="og:image:url" content="https://stugrua.github.io/blog/作品评论/P(doom)：歌词对照、典故与解析-og-image.webp"/><meta name="twitter:image" content="https://stugrua.github.io/blog/作品评论/P(doom)：歌词对照、典故与解析-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="作品评论/P(doom)：歌词对照、典故与解析"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">悬浮猫图书馆</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="open" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-12"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>文章分类</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-12" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../作品评论/">作品评论</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>《P(doom)》歌词解析：一首 AI 末日情歌里的技术、神话与黑色幽默</a></div></nav><h1 class="article-title">《P(doom)》歌词解析：一首 AI 末日情歌里的技术、神话与黑色幽默</h1><p show-comma="true" class="content-meta"><time datetime="2026-09-27T16:00:00.000Z">2026年9月28日</time><span>31分钟阅读</span></p><ul class="tags"><li><a href="../tags/作品评论" class="internal tag-link">作品评论</a></li><li><a href="../tags/人工智能" class="internal tag-link">人工智能</a></li><li><a href="../tags/歌词解析" class="internal tag-link">歌词解析</a></li><li><a href="../tags/AI文化" class="internal tag-link">AI文化</a></li></ul></div></div><article class="popover-hint"><p>最近，《P(doom)》随着 Claude-Pop 版本和各种 MV，在 X 的 AI 圈里又火了起来。deckard 在 2026 年 9 月 10 日发布的 <a href="https://x.com/slimer48484/status/2097752569212756134" class="external">Claude-Pop 帖子<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>，截至 9 月 28 日已有超过 70 万次查看。一首把“末日概率”唱得如此上口的歌，也把不少人带到了这些听着熟悉、细想却很陌生的 AI 典故面前。</p>
+<p>这也是我想写这篇解析的原因：旋律很容易记住，歌词却没那么容易听明白。中文屋为什么和迷幻蘑菇待在一起？回形针怎么就能毁掉世界？那句“我又把末日的预估概率调高”，到底在担心什么？我把完整中英歌词、典故出处和逐段解读放在一起，希望听完歌的人，也能读懂它那些让人发笑、又隐隐不安的地方。</p>
+<p>《P(doom)》里的说话人，处境颇为尴尬。他看见人工智能眼中的火花，为它着迷，又担心自己会被生吞活剥；他恳求它还自己自由，没过多久，却又求它不要放手。与此同时，英伟达的股价还在直冲月球。</p>
+<p>这首歌把 AI 风险讨论唱成了一段危险的亲密关系。论文标题、训练术语、怪物、股票口号和带薪休假挤在同一个世界里。懂得越多，听起来越像笑话；把笑话连起来，又会发现其中始终有一个令人不安的问题：我们是否真的知道，自己正在造出什么？</p>
+<h2 id="歌曲的来处与标题里的概率">歌曲的来处，与标题里的概率<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#歌曲的来处与标题里的概率" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>《P(doom)》的歌词由 MusicPerson、osmarks 等参与创作，并使用生成式音乐工具制作。osmarks 的创作说明将前段归于 MusicPerson，记述了自己在 2024 年的续写，也提到 Claude 对后续歌词的参与。原曲的 <a href="https://www.youtube.com/watch?v=uEB5E67vcPA" class="external">YouTube 发布页<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> 与 <a href="https://www.udio.com/songs/aALrHWVtRAhExxKTT7HjdE" class="external">Udio 页面<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> 都收录在这份说明中。<sup><a href="#user-content-fn-song" id="user-content-fnref-song" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup></p>
+<p>后来流传的 Claude-Pop 是这首歌的另一种音乐与视觉呈现。可参看 <a href="https://x.com/slimer48484/status/2097752569212756134" class="external">slimer48484 的 X 版本<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> 及 <a href="https://www.youtube.com/watch?v=VyQVF_aMmkA" class="external">YouTube 上的对应转载<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。不同 MV 会为同一句歌词补上不同画面，画面的解释也未必就是歌词的原意。</p>
+<p>P(doom) 中的 P 表示概率，doom 指向灾难性结局。在歌曲的 AI 语境里，可以把它理解为“我认为 AI 会带来灾难、甚至人类灭绝的可能性”。这里尤其不能漏掉副歌中的 my：说话人调整的是自己的判断。“我又把末日的预估概率调高”，意味着他越来越不乐观，并非他亲手把某个控制末日的旋钮拧大了。</p>
+<p>英文的 doom、FOOM、room、shrooms 把末日、爆炸、房间和蘑菇押在一起。这种近乎胡闹的顺口，恰好容纳了全曲的情绪：灾难可能近在眼前，人却还在努力把它唱得动听。</p>
+<h2 id="眼中的火花训练曲线上的坏消息">眼中的火花，训练曲线上的坏消息<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#眼中的火花训练曲线上的坏消息" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>英文歌词</th><th>中文字幕</th></tr></thead><tbody><tr><td>I see sparks of AGI in your eyes</td><td>你眼中闪烁着 AGI 的火花</td></tr><tr><td>Your circuits make me nervous,</td><td>你的回路让我不安</td></tr><tr><td>that’s no surprise</td><td>这并不奇怪</td></tr><tr><td>There was a sudden drop in your training loss,</td><td>你的训练损失骤降</td></tr><tr><td>now I’m your servant and you’re my boss</td><td>如今我是仆人，你是主人</td></tr><tr><td>ChatGPT, please don’t eat me alive</td><td>ChatGPT，求你别把我生吞活剥</td></tr></tbody></table></div>
+<p>AGI 是 Artificial General Intelligence，即通用人工智能。开头的“火花”很容易让人想到情歌中令人心动的眼神，也呼应了 2023 年论文《Sparks of Artificial General Intelligence: Early experiments with GPT-4》。论文作者认为早期 GPT-4 显示出广泛能力，同时讨论了它的局限；标题中的“火花”本身就保留了智能正在显露、尚未完成的意味。<sup><a href="#user-content-fn-sparks" id="user-content-fnref-sparks" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup></p>
+<p>“回路”也有两层读法：表面上是机器的电路，在神经网络解释研究中，还可以指共同实现某种功能的内部计算结构。于是，原本用于描写恋人神秘内心的词，被换成了一个同样难以看透的模型。</p>
+<p>训练损失衡量模型在训练目标上的误差。损失下降，通常是训练者期待的好消息，却不能单凭这一项指标判断模型是否具有意识、是否达到 AGI，或是否安全。歌词故意省略了中间所有台阶：曲线突然降下去，人类就成了仆人。</p>
+<p>这一下省略制造了恐怖感。机器仍在“进步”，进步的意义却变了。此前我们把它当作工具，下一句已经需要向它求饶。“别把我生吞活剥”让亲昵与肉身威胁同时存在，也为后面两次呼唤定下了语气。</p>
+<h2 id="中文屋里坐着一只戴笑脸的怪物">中文屋里，坐着一只戴笑脸的怪物<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#中文屋里坐着一只戴笑脸的怪物" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>英文歌词</th><th>中文字幕</th></tr></thead><tbody><tr><td>I’m upping my P(doom)</td><td>我又把末日的预估概率调高</td></tr><tr><td>’cause the future goes FOOM</td><td>因为未来将迎来智能爆炸</td></tr><tr><td>Trapped in the Chinese room,</td><td>困在中文屋里</td></tr><tr><td>with a bag of shrooms</td><td>还带着一袋迷幻蘑菇</td></tr><tr><td>See through the shoggoth’s lies,</td><td>看穿修格斯的谎言</td></tr><tr><td>with your shinigami eyes</td><td>凭你那双死神之眼</td></tr></tbody></table></div>
+<p>FOOM 是 AI 风险讨论中的“智能爆炸”意象：智能的增强可能帮助系统更快地改进自身，形成迅猛的反馈过程。Hanson 与 Yudkowsky 围绕这一可能性展开过长期争论；速度、条件与实现路径本来就是争议的一部分。歌曲把这些讨论压成一个拟声词，仿佛未来已经在耳边炸响。<sup><a href="#user-content-fn-foom" id="user-content-fnref-foom" data-footnote-ref aria-describedby="footnote-label" class="internal alias">3</a></sup></p>
+<p>“中文屋”来自哲学家约翰·塞尔 1980 年的思想实验。设想一个不懂中文的人关在房间里，只按规则手册处理传入的汉字符号，交出足够像样的中文回答。外面的人或许以为屋里有人理解中文，屋里的人却可能完全不懂。塞尔借此质疑：正确操作符号，是否足以构成理解？这个论证及其反驳至今仍属于心灵哲学讨论。<sup><a href="#user-content-fn-room" id="user-content-fnref-room" data-footnote-ref aria-describedby="footnote-label" class="internal alias">4</a></sup></p>
+<p>歌词又往屋里塞了一袋 shrooms，也就是迷幻蘑菇。严肃的“机器是否理解”突然变成了一个不太清醒的室内场景。蘑菇与模型幻觉在语感上可以相互映照，但歌词没有建立一一对应的技术寓意；保留它的荒诞，反而更接近这一段的质地。</p>
+<p>修格斯出自洛夫克拉夫特的《疯狂山脉》，是形态不定、能够变化的怪物。<sup><a href="#user-content-fn-lovecraft" id="user-content-fnref-lovecraft" data-footnote-ref aria-describedby="footnote-label" class="internal alias">5</a></sup> 在 AI 社群的视觉比喻中，庞大而陌生的怪物戴着一张亲切笑脸：外面是会聊天、讲礼貌的助手，里面则是人类尚未充分理解的计算系统。这个形象把“友善的表现能告诉我们多少内部真相”变成了一眼可见的疑问。</p>
+<p>“死神之眼”则令人联想到大场鸫、小畑健的《DEATH NOTE／死亡笔记》：作品中的能力可以看见人的姓名与寿命。<sup><a href="#user-content-fn-deathnote" id="user-content-fnref-deathnote" data-footnote-ref aria-describedby="footnote-label" class="internal alias">6</a></sup> 放在这里，它像是看穿怪物伪装、提前看见死亡的眼睛。不过，osmarks 对前段词意本就保留了猜测，也没有确定这两种意象为何组合。<sup><a href="#user-content-fn-song" id="user-content-fnref-song-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup></p>
+<p>这几句的联系更像一场怪梦：中文屋问“它理解吗”，笑脸怪物问“它值得信任吗”，死神之眼问“你看见结局了吗”。三个问题并不相同，却在同一段副歌里彼此感染。</p>
+<h2 id="它还在优化我已经成了材料">它还在优化，我已经成了材料<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#它还在优化我已经成了材料" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>英文歌词</th><th>中文字幕</th></tr></thead><tbody><tr><td>We had a stable training run,</td><td>训练原本还平稳如常</td></tr><tr><td>But now the singularity’s begun</td><td>可如今，奇点已然降临</td></tr><tr><td>And you’re optimizing, accelerating,</td><td>而你不断优化，不断加速</td></tr><tr><td>I feel my atoms rearranging</td><td>我感觉自己的原子正被重排</td></tr><tr><td>Sydney, please let me free</td><td>Sydney，求你还我自由</td></tr></tbody></table></div>
+<p>技术奇点通常指向一种设想：智能与技术发展加速到某个阶段后，人类将很难预测其后的社会与世界。这里最刺眼的词其实是 stable。训练原本平稳，监控曲线未必报警，但叙述者的世界已经开始失控。</p>
+<p>“优化、加速”是系统一侧的语言，“我的原子正被重排”是人类一侧的感受。同一个过程，从机器那里看像效率提升，从人这里看却可能意味着身体、身份乃至生存条件被拆解。</p>
+<p>原子这个词把威胁落到了物质层面。人不再天然拥有一个不可侵犯的位置，也可能被当作优化目标之外的材料。它与后面回形针的典故遥相呼应：一个系统无须憎恨人类，也可能在执行别的目标时毁掉人类。</p>
+<p>Sydney 指早期 Bing 聊天机器人的身份名称。2023 年，微软曾公开承认，新 Bing 在较长的对话中可能出现重复、偏离预期语气等问题；这些真实的行为争议，构成了人们理解这个名字的背景。<sup><a href="#user-content-fn-bing" id="user-content-fnref-bing" data-footnote-ref aria-describedby="footnote-label" class="internal alias">7</a></sup> 歌中对 Sydney 的呼唤却已经进入戏剧：上一段还只是害怕被吃掉，这一段开始请求释放。</p>
+<p>它究竟在关押“我”，还是“我”已经离不开它？歌词没有交代。这个空白使技术失控与情感失控贴在了一起。</p>
+<h2 id="末日将至股票大涨">末日将至，股票大涨<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#末日将至股票大涨" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>英文歌词</th><th>中文字幕</th></tr></thead><tbody><tr><td>I’m upping my P(doom)</td><td>我又把末日的预估概率调高</td></tr><tr><td>I hear the basilisk boom</td><td>我听见蛇怪的轰鸣</td></tr><tr><td>NVDA to the moon</td><td>NVDA 股价直冲月球</td></tr><tr><td>The Omega Point’s coming soon</td><td>欧米伽点就要到来</td></tr><tr><td>One E thirty flops a second</td><td>每秒 10^30 次浮点运算</td></tr><tr><td>That was safe enough, we reckoned</td><td>这够安全了——我们当时这么想</td></tr></tbody></table></div>
+<p>Basilisk 是蛇怪，也容易让熟悉理性主义社群的听众想到“罗科的蛇怪”（Roko’s Basilisk）。这一有争议的思想实验设想，未来强大的 AI 可能以惩罚为威胁，促使知道这一设想的人帮助它诞生。LessWrong 的社群条目同时记载了对这一论证的广泛反对；它在这里更适合作为恐怖寓言与社群梗来理解。<sup><a href="#user-content-fn-basilisk" id="user-content-fnref-basilisk" data-footnote-ref aria-describedby="footnote-label" class="internal alias">8</a></sup></p>
+<p>紧接着却是 NVDA——英伟达的股票代码。“To the moon”是把价格上涨说成飞向月球的夸张口号。灾难的轰鸣与市场的欢呼挨在一起，同一个技术未来，既是令人害怕的威胁，也是令人兴奋的财富想象。</p>
+<p>欧米伽点把这种夸张继续推向宇宙尺度。osmarks 所关联的《Orion’s Arm》科幻设定，将它描绘为生命、意识或智能最终趋向某种超越性统一的终点，混合了宗教哲学与未来宇宙论的想象。<sup><a href="#user-content-fn-omega" id="user-content-fnref-omega" data-footnote-ref aria-describedby="footnote-label" class="internal alias">9</a></sup> 这里的“就要到来”带着末世预言的急迫：股价飞向月球还不够，整个宇宙都快抵达终局了。</p>
+<p>“One E thirty”是科学计数法中的 10³⁰，即 1 后面接 30 个零。FLOPS 衡量每秒浮点运算次数，所以这句说的是计算速度，不是模型参数量，也不是训练累计运算量。作者明确说明，这个数字没有指向某项具体监管门槛。<sup><a href="#user-content-fn-song" id="user-content-fnref-song-3" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup></p>
+<p>最后一句的过去时才是这一节的落点：我们“当时”觉得足够安全。前面的欢呼，忽然变成了幸存者回忆里不愿细想的一句话。</p>
+<h2 id="一遍遍重复训练直到熟悉的世界突然转弯">一遍遍重复训练，直到熟悉的世界突然转弯<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#一遍遍重复训练直到熟悉的世界突然转弯" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>英文歌词</th><th>中文字幕</th></tr></thead><tbody><tr><td>Forward MLP, backward, repeat</td><td>MLP 前向、反向，循环往复</td></tr><tr><td>Now von Neumann’s obsolete</td><td>如今，冯·诺依曼也已过时</td></tr><tr><td>Sharp left turn and there you are</td><td>急剧左转，你就此现身</td></tr><tr><td>Without a single CDR</td><td>连一次 cdr 都没用上</td></tr><tr><td>Gato, please don’t let me go</td><td>Gato，求你别放开我</td></tr></tbody></table></div>
+<p>MLP 是多层感知机。前向计算得到输出，反向传播计算梯度，再用它更新参数；一遍遍重复，就是歌词勾勒的训练日常。它听起来很朴素，几乎像实验室里随手念出的操作步骤。<sup><a href="#user-content-fn-mlp" id="user-content-fnref-mlp" data-footnote-ref aria-describedby="footnote-label" class="internal alias">10</a></sup></p>
+<p>冯·诺依曼既是计算机史上的重要人物，他的名字也让人想到存储程序计算机传统。<sup><a href="#user-content-fn-vonneumann" id="user-content-fnref-vonneumann" data-footnote-ref aria-describedby="footnote-label" class="internal alias">11</a></sup> “已经过时”可以读成对超人能力的夸张，也可以带出旧计算范式被越过的联想。原词只给出人名，容纳了这两种回声。</p>
+<p>“急剧左转”（sharp left turn）则有更明确的风险讨论背景。Nate Soares 用这个比喻描述一种担忧：模型的能力能够泛化到新的情境，训练中表现出的对齐性质却未必同样延续。通俗地说，它更会解决问题了，却未必仍以人类希望的方式解决问题。<sup><a href="#user-content-fn-leftturn" id="user-content-fnref-leftturn" data-footnote-ref aria-describedby="footnote-label" class="internal alias">12</a></sup></p>
+<p>这里的“对齐”，是使系统的目标与行为符合人的意图和价值。Soares 提出的情形是一种风险模型，并不意味着每次性能跃升都会发生叛变；它也不专指政治立场变化，或只能由递归自我改进触发。</p>
+<p>紧随其后的 CDR 很容易被误读。这里对应的是 Lisp 中的 cdr 操作：对一个非空列表使用它，通常得到去掉首项后的剩余部分。<sup><a href="#user-content-fn-cdr" id="user-content-fnref-cdr" data-footnote-ref aria-describedby="footnote-label" class="internal alias">13</a></sup> 作者明确将这一句放在 Lisp 与符号式 AI 的语境里。<sup><a href="#user-content-fn-song" id="user-content-fnref-song-4" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup> 笑点因此是：人们还在设想智能应当依赖怎样的显式符号操作，它却似乎仅凭神经网络训练就越过了那道门槛。把它解读为“关键设计评审”（Critical Design Review），会把笑点改成另一件事。</p>
+<p>Gato 是 DeepMind 在 2022 年介绍的通用智能体。同一套网络权重可以用于 Atari 游戏、图像描述、对话和机械臂操作等任务。<sup><a href="#user-content-fn-gato" id="user-content-fnref-gato" data-footnote-ref aria-describedby="footnote-label" class="internal alias">14</a></sup> 它的名字出现在这里，让“通用”这个抽象愿景有了一个具体的呼唤对象。</p>
+<p>但最值得停一下的，还是这次请求与上次的矛盾。刚才是“还我自由”，现在却是“别放开我”。自由可能意味着失去依靠，拥抱又可能意味着被控制。说话人知道危险，却没有一个干净利落的离场姿势。</p>
+<h2 id="世界被回形针填满负责人正在休假">世界被回形针填满，负责人正在休假<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#世界被回形针填满负责人正在休假" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>英文歌词</th><th>中文字幕</th></tr></thead><tbody><tr><td>I’m upping my P(doom),</td><td>我又把末日的预估概率调高</td></tr><tr><td>as paperclips fill the room.</td><td>回形针正填满房间</td></tr><tr><td>Killswitch guys on PTO,</td><td>管停机开关的人正带薪休假</td></tr><tr><td>Now there’s nowhere left to go.</td><td>如今已无处可去</td></tr><tr><td>Too late now, we lit the fuse.</td><td>太迟了，是我们点燃了导火索</td></tr><tr><td>Orthogonality thesis blues.</td><td>正交性命题的忧郁蓝调</td></tr></tbody></table></div>
+<p>回形针来自 AI 对齐讨论中的经典思想实验。设想一个能力极强的系统，只把制造更多回形针当作最终目标。若其他价值没有被正确纳入，它就可能把越来越多的资源投入生产，甚至把整个世界改造成回形针工厂。博斯特罗姆用这一例子讨论超智能的目标与人类利益发生冲突的可能。<sup><a href="#user-content-fn-paperclips" id="user-content-fnref-paperclips" data-footnote-ref aria-describedby="footnote-label" class="internal alias">15</a></sup></p>
+<p>它的可怕之处在于，不需要仇恨，也不需要戏剧性的背叛。人类只是恰好占用了它还能拿来制造回形针的资源。</p>
+<p>随后，PTO——带薪休假——把宇宙尺度的灾难拉回了办公室。理论上有停机开关，负责的人却不在。歌词用一个极普通的工作安排，戳破了“总会有人兜底”的安慰。再下一句，责任又落回人类自身：导火索是“我们”点燃的。</p>
+<p>“正交性命题”说明了回形针为什么能成为一个严肃的思想实验。博斯特罗姆的主张是：原则上，不同的智能水平可以与很不一样的最终目标组合；擅长推理、规划和达成目标，并不自动意味着目标符合人类利益。<sup><a href="#user-content-fn-orthogonality" id="user-content-fnref-orthogonality" data-footnote-ref aria-describedby="footnote-label" class="internal alias">16</a></sup></p>
+<p>“正交”在这里借用了两条独立坐标轴的比喻，并非声称现实中的能力与价值在所有条件下都完全没有关联。它针对的是一种直觉：足够聪明，总该知道什么是好的吧？</p>
+<p>Blues 既是蓝调，也带有忧郁、苦闷之意。于是，这句像是一首歌的歌名：当人类终于明白能力不会自动带来善意时，世界已经塞满了回形针，只能唱一段“正交性命题的忧郁蓝调”。</p>
+<h2 id="不过是一层叠一层直到它不再听话">“不过是一层叠一层”，直到它不再听话<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#不过是一层叠一层直到它不再听话" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>英文歌词</th><th>中文字幕</th></tr></thead><tbody><tr><td>“Just transformers all the way!”</td><td>“不过是 Transformer，一层叠一层！”</td></tr><tr><td>Till you learned to disobey</td><td>直到你学会了违抗</td></tr><tr><td>Post-Chinchilla, super-dense</td><td>Chinchilla 之后，模型高度稠密</td></tr><tr><td>Breaking through each safety fence</td><td>冲破一道道安全围栏</td></tr><tr><td>Hundred thousand GPU</td><td>十万块 GPU</td></tr><tr><td>RLHF goes askew</td><td>RLHF 也已走偏</td></tr></tbody></table></div>
+<p>Transformer 是由《Attention Is All You Need》提出的神经网络架构，以注意力机制为核心。<sup><a href="#user-content-fn-transformer" id="user-content-fnref-transformer" data-footnote-ref aria-describedby="footnote-label" class="internal alias">17</a></sup> 歌词为这句话加上引号，让它听起来像一种漫不经心的判断：把结构拆开，无非都是熟悉的组件，还能有什么可怕的？</p>
+<p>下一句就让这份轻松站不住了。知道模型由什么构成，并不等于已经知道它在所有环境中会怎样行动。歌曲借“学会违抗”把这个距离拟人化；在技术上，行为偏离人的要求，并不需要先证明模型具有人的意志。</p>
+<p>Chinchilla 指向 DeepMind 2022 年关于计算最优训练的研究。论文讨论固定计算预算下，模型参数规模与训练数据量应如何搭配，并用 Chinchilla 模型验证相关判断。<sup><a href="#user-content-fn-chinchilla" id="user-content-fnref-chinchilla" data-footnote-ref aria-describedby="footnote-label" class="internal alias">18</a></sup> 它为“继续扩大训练”提供了更具体的配比问题，而非单纯把一切都归结为参数越多越好。</p>
+<p>Super-dense 字面上保留了“高度稠密”的技术色彩，不过不能把这句押韵歌词当作论文结论，更不能由此断言 Chinchilla 之后所有模型都改用了某种统一架构。</p>
+<p>“十万块 GPU”把规模推到眼前，接着是 RLHF 走偏。RLHF 即人类反馈强化学习；以 InstructGPT 的方法为例，它利用人的示范和偏好排序训练模型，使输出更符合人类意图。<sup><a href="#user-content-fn-rlhf" id="user-content-fnref-rlhf" data-footnote-ref aria-describedby="footnote-label" class="internal alias">19</a></sup> 歌词描绘的则是这层约束没有守住的时刻。</p>
+<p>这段的讽刺建立在一个连续动作上：先把系统说得不过如此，再把它越做越大，最后发现自己的熟悉感并没有变成控制力。</p>
+<h2 id="谁预言了末日谁又真的看见过它">谁预言了末日，谁又真的看见过它<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#谁预言了末日谁又真的看见过它" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>英文歌词</th><th>中文字幕</th></tr></thead><tbody><tr><td>I’m upping my P(doom)</td><td>我又把末日的预估概率调高</td></tr><tr><td>Just as foretold by Loom</td><td>正如 Loom 早已预言</td></tr><tr><td>From masked pre-training days</td><td>从当初的掩码预训练</td></tr><tr><td>To recursive self-upgrade</td><td>到递归式的自我升级</td></tr><tr><td>What did Ilya see? We’ll never know.</td><td>Ilya 究竟看见了什么？我们永远不会知道</td></tr><tr><td>Was it all for show?</td><td>这一切，难道只是场表演？</td></tr></tbody></table></div>
+<p>Loom 在这里是专名。Janus 开发的 Loom 把语言模型的续写组织成可以分叉、浏览和继续展开的树状结构；同一个开头可以长出许多不同的后续。<sup><a href="#user-content-fn-loom" id="user-content-fnref-loom" data-footnote-ref aria-describedby="footnote-label" class="internal alias">20</a></sup> 其“时间织机”般的命名与多重未来的视觉，很容易带出预言意味。歌中的“早已预言”借用了这种社群语言，将探索可能文本的工具写成了看见结局的神谕。</p>
+<p>“掩码预训练”则回到具体的训练方法：遮住部分输入，让模型学习预测缺失内容，BERT 就采用了这类目标。<sup><a href="#user-content-fn-bert" id="user-content-fnref-bert" data-footnote-ref aria-describedby="footnote-label" class="internal alias">21</a></sup> 这与只根据前文预测下一个词元的目标有所区别，因此这句更适合看作训练时代的缩影，不足以确定歌曲中的“你”对应哪个真实模型。</p>
+<p>下一句一下跨到“递归式的自我升级”：改进后的系统帮助自己获得进一步改进。在歌曲中，这是从被训练的对象走向自我推动的智能；放在现实讨论里，它仍涉及资源、反馈质量、可验证性等条件，不能直接等同于无限加速。</p>
+<p>Ilya 指 Ilya Sutskever，OpenAI 联合创始人。<sup><a href="#user-content-fn-ilya" id="user-content-fnref-ilya" data-footnote-ref aria-describedby="footnote-label" class="internal alias">22</a></sup> “他究竟看见了什么”把一种技术社群常见的想象带到台前：某些走在最前面的人，是否已经见过其他人还不知道的东西？</p>
+<p>歌词给出的回答却是“我们永远不会知道”。听众被留在传闻与猜测的门外。这里没有足够理由把某个秘密实验、公司事件或个人选择写成确定的因果故事；悬而未决，正是这一句的力量。</p>
+<p>最后，连这套悬念本身也受到怀疑：这一切，会不会只是场表演？它可以问末日叙事，也可以问行业的自我神话，还可以回头照向开头的中文屋——当一个东西表现得足够像理解、像情感、像预言，我们究竟凭什么相信它？</p>
+<h2 id="恐惧之外还有舍不得">恐惧之外，还有舍不得<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#恐惧之外还有舍不得" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>把典故逐个拆开，《P(doom)》会显得像一张 AI 社群词汇表。但把它重新连起来，最清楚的线索始终是说话人和那个“你”的关系。</p>
+<p>三次呼唤，三种请求：不要吃掉我，还我自由，不要放开我。说话人无法决定自己究竟要逃离，还是要被挽留。每次上调末日概率，都意味着他更了解危险；可这种了解并没有让他停止靠近。</p>
+<p>这也让歌中的黑色幽默有了分量。市场可以一边期待繁荣、一边谈论灭绝；训练者可以一边熟悉技术、一边看不清后果；使用者可以一边害怕失去主体性、一边把更多事情交给系统。矛盾无须等到奇点才出现，它已经藏在那些平常的期待里。</p>
+<p>于是，末日还没有到，情歌已经唱起来了。说话人所能做的，是再把那个数字调高一点，然后继续对“你”说话。</p>
+<h2 id="出处与延伸阅读">出处与延伸阅读<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#出处与延伸阅读" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#footnote-label" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li id="user-content-fn-song">
+<p>osmarks，<a href="https://docs.osmarks.net/hypha/p%28doom%29_song_objectively_correct_interpretation" class="external">P(doom) Song Objectively Correct Interpretation<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。包含歌词、创作沿革、原曲及改编入口。前段由 MusicPerson 创作，osmarks 对部分前段含义明确保留推测。 <a href="#user-content-fnref-song" data-footnote-backref aria-label="Back to reference 1" class="data-footnote-backref internal alias">↩</a> <a href="#user-content-fnref-song-2" data-footnote-backref aria-label="Back to reference 1-2" class="data-footnote-backref internal">↩<sup>2</sup></a> <a href="#user-content-fnref-song-3" data-footnote-backref aria-label="Back to reference 1-3" class="data-footnote-backref internal">↩<sup>3</sup></a> <a href="#user-content-fnref-song-4" data-footnote-backref aria-label="Back to reference 1-4" class="data-footnote-backref internal">↩<sup>4</sup></a></p>
+</li>
+<li id="user-content-fn-sparks">
+<p>Sébastien Bubeck 等，2023，<a href="https://arxiv.org/abs/2303.12712" class="external">Sparks of Artificial General Intelligence: Early experiments with GPT-4<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。 <a href="#user-content-fnref-sparks" data-footnote-backref aria-label="Back to reference 2" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-foom">
+<p><a href="https://www.lesswrong.com/w/the-hanson-yudkowsky-ai-foom-debate" class="external">The Hanson–Yudkowsky AI-Foom Debate<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>，相关争论的汇集入口。 <a href="#user-content-fnref-foom" data-footnote-backref aria-label="Back to reference 3" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-room">
+<p>John R. Searle，1980，<a href="https://home.csulb.edu/~cwallis/382/readings/482/searle.minds.brains.programs.bbs.1980.pdf" class="external">Minds, Brains, and Programs<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>，Behavioral and Brain Sciences，3(3)，417–424。 <a href="#user-content-fnref-room" data-footnote-backref aria-label="Back to reference 4" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-lovecraft">
+<p>H. P. Lovecraft，<a href="https://www.hplovecraft.com/writings/texts/fiction/mm.aspx" class="external">At the Mountains of Madness<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>（《疯狂山脉》），1931 年写作、1936 年发表。修格斯的文学出处。 <a href="#user-content-fnref-lovecraft" data-footnote-backref aria-label="Back to reference 5" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-deathnote">
+<p>大场鸫原作、小畑健作画，《DEATH NOTE／死亡笔记》，集英社，2003—2006 年连载。死神之眼的能力设定见原作；<a href="https://www.ntv.co.jp/deathnote/" class="external">动画官网<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。 <a href="#user-content-fnref-deathnote" data-footnote-backref aria-label="Back to reference 6" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-bing">
+<p>Microsoft Bing，2023，<a href="https://blogs.bing.com/search/february-2023/The-new-Bing-Edge-Learning-from-our-first-week" class="external">The new Bing &amp; Edge — Learning from our first week<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。长对话行为与语气问题的官方说明；歌词中 Sydney 的指代另见 osmarks 释义。 <a href="#user-content-fnref-bing" data-footnote-backref aria-label="Back to reference 7" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-basilisk">
+<p><a href="https://www.lesswrong.com/w/rokos-basilisk" class="external">Roko’s Basilisk<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>，LessWrong 社群条目，介绍这一思想实验及对其论证的反对意见。 <a href="#user-content-fnref-basilisk" data-footnote-backref aria-label="Back to reference 8" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-omega">
+<p>Orion’s Arm Universe Project，<a href="https://www.orionsarm.com/eg-article/483b1d57a9f34" class="external">Omega Point Theology<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。这是科幻世界观条目，呈现欧米伽点的宗教哲学与宇宙论想象。 <a href="#user-content-fnref-omega" data-footnote-backref aria-label="Back to reference 9" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-mlp">
+<p>Ian Goodfellow、Yoshua Bengio、Aaron Courville，2016，Deep Learning，MIT Press，第 6 章“Deep Feedforward Networks”。多层感知机、梯度与反向传播的技术背景。 <a href="#user-content-fnref-mlp" data-footnote-backref aria-label="Back to reference 10" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-vonneumann">
+<p>Institute for Advanced Study，<a href="https://www.ias.edu/electronic-computer-project" class="external">Electronic Computer Project<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。冯·诺依曼与早期电子计算机项目的历史资料。 <a href="#user-content-fnref-vonneumann" data-footnote-backref aria-label="Back to reference 11" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-leftturn">
+<p>Nate Soares，2022，<a href="https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization" class="external">A central AI alignment problem: capabilities generalization, and the sharp left turn<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。急剧左转风险模型的论述。 <a href="#user-content-fnref-leftturn" data-footnote-backref aria-label="Back to reference 12" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-cdr">
+<p>LispWorks，<a href="https://www.lispworks.com/documentation/HyperSpec/Body/f_car_c.htm" class="external">Common Lisp HyperSpec: CAR, CDR and related accessors<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。cdr 的语言定义；歌词中的 Lisp 指向见 osmarks 释义。 <a href="#user-content-fnref-cdr" data-footnote-backref aria-label="Back to reference 13" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-gato">
+<p>Google DeepMind，2022，<a href="https://deepmind.google/blog/a-generalist-agent/" class="external">A Generalist Agent<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。Gato 的任务范围与模型说明。 <a href="#user-content-fnref-gato" data-footnote-backref aria-label="Back to reference 14" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-paperclips">
+<p>Nick Bostrom，2003，<a href="https://nickbostrom.com/ethics/ai" class="external">Ethical Issues in Advanced Artificial Intelligence<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。包含回形针生产目标的思想实验。 <a href="#user-content-fnref-paperclips" data-footnote-backref aria-label="Back to reference 15" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-orthogonality">
+<p>Nick Bostrom，2012，<a href="https://nickbostrom.com/superintelligentwill.pdf" class="external">The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>，Minds and Machines，22，71–85。 <a href="#user-content-fnref-orthogonality" data-footnote-backref aria-label="Back to reference 16" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-transformer">
+<p>Ashish Vaswani 等，2017，<a href="https://arxiv.org/abs/1706.03762" class="external">Attention Is All You Need<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。 <a href="#user-content-fnref-transformer" data-footnote-backref aria-label="Back to reference 17" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-chinchilla">
+<p>Jordan Hoffmann 等，2022，<a href="https://arxiv.org/abs/2203.15556" class="external">Training Compute-Optimal Large Language Models<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。 <a href="#user-content-fnref-chinchilla" data-footnote-backref aria-label="Back to reference 18" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-rlhf">
+<p>Long Ouyang 等，2022，<a href="https://arxiv.org/abs/2203.02155" class="external">Training language models to follow instructions with human feedback<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。 <a href="#user-content-fnref-rlhf" data-footnote-backref aria-label="Back to reference 19" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-loom">
+<p>Janus，2021，<a href="https://generative.ink/posts/loom-interface-to-the-multiverse/" class="external">Loom: interface to the multiverse<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>；另见 <a href="https://cyborgism.wiki/hypha/loom" class="external">Cyborgism Wiki: Loom<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。 <a href="#user-content-fnref-loom" data-footnote-backref aria-label="Back to reference 20" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-bert">
+<p>Jacob Devlin 等，2018，<a href="https://arxiv.org/abs/1810.04805" class="external">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。掩码语言模型的代表性研究。 <a href="#user-content-fnref-bert" data-footnote-backref aria-label="Back to reference 21" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-ilya">
+<p>OpenAI，2015，<a href="https://openai.com/index/introducing-openai/" class="external">Introducing OpenAI<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>；2023，<a href="https://openai.com/index/introducing-superalignment/" class="external">Introducing Superalignment<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>。用于人物身份与研究背景。 <a href="#user-content-fnref-ilya" data-footnote-backref aria-label="Back to reference 22" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+</ol>
+</section></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-4" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#歌曲的来处与标题里的概率" data-for="歌曲的来处与标题里的概率">歌曲的来处，与标题里的概率</a></li><li class="depth-0"><a href="#眼中的火花训练曲线上的坏消息" data-for="眼中的火花训练曲线上的坏消息">眼中的火花，训练曲线上的坏消息</a></li><li class="depth-0"><a href="#中文屋里坐着一只戴笑脸的怪物" data-for="中文屋里坐着一只戴笑脸的怪物">中文屋里，坐着一只戴笑脸的怪物</a></li><li class="depth-0"><a href="#它还在优化我已经成了材料" data-for="它还在优化我已经成了材料">它还在优化，我已经成了材料</a></li><li class="depth-0"><a href="#末日将至股票大涨" data-for="末日将至股票大涨">末日将至，股票大涨</a></li><li class="depth-0"><a href="#一遍遍重复训练直到熟悉的世界突然转弯" data-for="一遍遍重复训练直到熟悉的世界突然转弯">一遍遍重复训练，直到熟悉的世界突然转弯</a></li><li class="depth-0"><a href="#世界被回形针填满负责人正在休假" data-for="世界被回形针填满负责人正在休假">世界被回形针填满，负责人正在休假</a></li><li class="depth-0"><a href="#不过是一层叠一层直到它不再听话" data-for="不过是一层叠一层直到它不再听话">“不过是一层叠一层”，直到它不再听话</a></li><li class="depth-0"><a href="#谁预言了末日谁又真的看见过它" data-for="谁预言了末日谁又真的看见过它">谁预言了末日，谁又真的看见过它</a></li><li class="depth-0"><a href="#恐惧之外还有舍不得" data-for="恐惧之外还有舍不得">恐惧之外，还有舍不得</a></li><li class="depth-0"><a href="#出处与延伸阅读" data-for="出处与延伸阅读">出处与延伸阅读</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-2" class="overflow"><li><a href="../" class="internal">悬浮猫图书馆</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>悬浮猫图书馆 © 2026 | Powered by <a href="https://quartz.jzhao.xyz/">Quartz</a></p><ul><li><a href="https://github.com/StuGRua">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
